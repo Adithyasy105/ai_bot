@@ -4,7 +4,8 @@ python-dotenv==1.2.1
 tqdm==4.67.1
 
 # --- Database & Supabase ---
-supabase>=2.4.0  # Use a version compatible with httpx 0.25+
+supabase==2.2.3
+gotrue==2.1.0
 psycopg2-binary==2.9.11
 
 # --- Google AI / Gemini API ---
@@ -18,7 +19,8 @@ google-auth-oauthlib==1.0.0
 python-telegram-bot==20.6
 
 # --- Networking & Utilities ---
-requests>=2.32.0
+requests==2.31.0
+httpx==0.24.1
 
 # --- Optional ---
 openai>=1.12.0
