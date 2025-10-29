@@ -4,7 +4,7 @@ python-dotenv==1.2.1
 tqdm==4.67.1
 
 # --- Database & Supabase ---
-supabase==2.2.0
+supabase==2.1.0        # 👈 downgraded to work with httpx 0.25+
 psycopg2-binary==2.9.11
 
 # --- Google AI / Gemini API ---
@@ -19,7 +19,7 @@ python-telegram-bot==20.6
 
 # --- Networking & Utilities ---
 requests==2.32.3
-httpx==0.24.1   # 👈 compatible with both supabase and telegram bot
+httpx==0.25.2          # 👈 compatible with Telegram Bot 20.6
 
 # --- Optional ---
 openai>=1.12.0
