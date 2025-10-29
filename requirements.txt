@@ -1,5 +1,8 @@
 python-telegram-bot==20.6
-openai>=0.27.0
-python-dotenv
-psycopg2-binary
-supabase>=2.4.0
+python-dotenv==1.0.1
+supabase==2.4.0
+psycopg2-binary==2.9.9
+google-generativeai==0.8.3
+asyncio==3.4.3
+aiohttp==3.8.4
+flask==2.2.2

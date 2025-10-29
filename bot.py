@@ -255,6 +255,20 @@ def main():
 
     print(" LISA bot is running...")
     app.run_polling()
+from flask import Flask
+import threading
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "💖 LISA bot is alive and running!"
+
+def run_flask():
+    app.run(host="0.0.0.0", port=8080)
+
+# Run Flask server in background thread
+threading.Thread(target=run_flask).start()
 
 
 if __name__ == "__main__":
