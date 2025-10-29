@@ -3,9 +3,8 @@ flask==3.1.2
 python-dotenv==1.2.1
 tqdm==4.67.1
 
-# --- Database & Supabase ---
-supabase==2.2.3
-gotrue==2.1.0
+# --- Database & Supabase (FIX: Upgraded to version compatible with newer httpx) ---
+supabase==2.4.0              
 psycopg2-binary==2.9.11
 
 # --- Google AI / Gemini API ---
@@ -18,9 +17,9 @@ google-auth-oauthlib==1.0.0
 # --- Telegram Bot ---
 python-telegram-bot==20.6
 
-# --- Networking & Utilities ---
-requests==2.31.0
-httpx==0.24.1
+# --- Networking & Utilities (FIX: Set to 0.26.0 to satisfy Telegram Bot's >=0.25.0 requirement) ---
+requests==2.32.3
+httpx==0.26.0               
 
 # --- Optional ---
 openai>=1.12.0
