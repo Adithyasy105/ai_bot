@@ -3,7 +3,7 @@ Flask==3.1.2
 python-dotenv==1.2.1
 tqdm==4.67.1
 
-# --- Database & Supabase (Stable, conflict-free) ---
+# --- Database & Supabase ---
 supabase==2.5.0
 psycopg2-binary==2.9.11
 
@@ -17,9 +17,9 @@ google-auth-oauthlib==1.0.0
 # --- Telegram Bot ---
 python-telegram-bot==20.6
 
-# --- Networking & Utilities ---
+# --- Networking & Utilities (Resolved Conflict) ---
 requests==2.32.3
-httpx==0.26.0
+httpx==0.25.2
 
 # --- Optional (AI integrations) ---
 openai==1.12.0
