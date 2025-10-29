@@ -8,7 +8,7 @@ supabase==2.4.0
 psycopg2-binary==2.9.11
 postgrest==0.13.2
 storage3==0.7.7
-gotrue==2.13.0
+gotrue==2.12.4
 supafunc==0.3.3
 realtime==1.0.6
 
