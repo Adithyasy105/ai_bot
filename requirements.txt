@@ -3,7 +3,7 @@ Flask==3.1.2
 python-dotenv==1.2.1
 tqdm==4.67.1
 
-# --- Database & Supabase (Stable & Compatible with httpx 0.26) ---
+# --- Database & Supabase ---
 supabase==2.4.0
 psycopg2-binary==2.9.11
 postgrest==0.13.2
@@ -29,9 +29,9 @@ protobuf==5.29.5
 # --- Telegram Bot ---
 python-telegram-bot==20.6
 
-# --- Networking & Utilities ---
-requests==2.32.3           
-httpx==0.26.0              
+# --- Networking & Utilities (Stable Combo) ---
+requests==2.32.3
+httpx==0.25.2
 httpcore==0.17.3
 sniffio==1.3.1
 urllib3==2.5.0
@@ -39,10 +39,10 @@ idna==3.11
 charset-normalizer==3.4.4
 click==8.3.0
 
-# --- Optional (OpenAI / AI integrations) ---
-openai==1.12.0             
+# --- Optional (AI integrations) ---
+openai==1.12.0
 
-# --- Other required dependencies ---
+# --- Other Dependencies ---
 Werkzeug==3.1.3
 Jinja2==3.1.6
 itsdangerous==2.2.0
