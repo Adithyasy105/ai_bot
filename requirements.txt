@@ -1,0 +1,5 @@
+python-telegram-bot==20.6
+openai>=0.27.0
+python-dotenv
+psycopg2-binary
+supabase>=2.4.0
