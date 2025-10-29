@@ -19,7 +19,7 @@ python-telegram-bot==20.6
 
 # --- Networking & Utilities ---
 requests==2.32.3
-httpx==0.25.2
+httpx==0.24.1   # 👈 compatible with both supabase and telegram bot
 
 # --- Optional ---
 openai>=1.12.0
